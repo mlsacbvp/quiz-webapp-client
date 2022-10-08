@@ -9,14 +9,16 @@ Quiz Webapp client
 ### links
 
 <a href='#contributing'>Contributing</a>
+
 <a href='#important'>Important Guidelines</a>
+
 <a href='#deploy'>Deployment</a>
 
 ## Contributing
 
 Contributions are always welcome!
 
-See [contributing.md](contributing.md) for ways to get started.
+See <a href='#contributing'>Contributing</a> for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
