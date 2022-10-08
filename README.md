@@ -10,7 +10,7 @@ Quiz Webapp client
 
 <a href='#contributing'>Contributing</a>
 
-<a href='#important'>Important Guidelines</a>
+<a href='#guide'>Important Guidelines</a>
 
 <a href='#deploy'>Deployment</a>
 
@@ -48,7 +48,7 @@ If the issue is assigned to you, you can work on it and send a PR within 2-3 day
 
 ## Important guidelines
 
-<p id= "Important">
+<p id= "guide">
 1. Without any assigned issue, don’t send a PR, and if you don’t find issues at a particular time, then visit the repo after 2-3 days.
 2. If you send a PR without being assigned an issue, your PR will be marked “spam” or “invalid”.
 3. After getting assigned an issue, you must send a PR within 2-3 days otherwise we will re-assigning that issue to someone else.
