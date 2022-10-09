@@ -1,0 +1,28 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* background-image: ; */
+}
+
+.Navbar {
+    display: flex;
+}
+
+.icons {
+    margin-left: 74rem;
+
+}
+
+.logocontainer{
+    position: relative;
+    left: 1rem;
+}
+
+.el1,
+.el2,
+.el3 {
+    margin-left: 1rem;
+}
