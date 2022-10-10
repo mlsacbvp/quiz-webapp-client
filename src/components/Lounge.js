@@ -37,37 +37,38 @@ function Lounge({curr}){
 
     return(
         <div>
-              <style
+              {/* <style
     dangerouslySetInnerHTML={{
       __html:
-        "\n\t\t\th1 {\n\t\t\t\tcolor:white;\n\t\t\t}\n\t\t\tdiv.gfg {\n\t\t\t\tmargin:5px;\n\t\t\t\tpadding:5px;\n\t\t\t\tcolor: white;\n\t\t\t\twidth: 250px;\n\t\t\t\theight: 100%;\n\t\t\t\toverflow: auto;\n\t\t\t\ttext-align:justify;\n        position:fixed;\n        \n\n\t\t\t}\n\t\t"
+        "\n\t\t\th1 {\n\t\t\t\tcolor:white;\n\t\t\t}\n\t\t\tdiv.srol {\n\t\t\t\tmargin:5px;\n\t\t\t\tpadding:5px;\n\t\t\t\tcolor: white;\n\t\t\t\twidth: 250px;\n\t\t\t\theight: 100%;\n\t\t\t\toverflow: auto;\n\t\t\t\ttext-align:justify;\n        position:fixed;\n        \n\n\t\t\t}\n\t\t"
     }}
-  />
-    <div className="gfg scroll">
-        <h1 className='msg'>MESSAGE</h1>
+  /> */}
+    <div className="srol scroll scrollbar">
+        <h1 className='msg msgTitle'>MESSAGES</h1>
+        <hr></hr>
+        <hr></hr>
 
 
-        <hr></hr><hr></hr>
  
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>   
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>   
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>   
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>   
-        <h3 className='messegeBox'><p className='msg'>messeng</p></h3>   
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>   
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>   
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>   
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>   
+        <h3 className='messegeBox'><p className='msg'>messages</p></h3>   
     </div>
             <h1 className='text hello glow'>Hello There,</h1> 
             <div className='waitingText'>
