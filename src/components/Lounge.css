@@ -1,0 +1,57 @@
+.text{
+    color: #475edf;
+    text-align: center;
+} 
+ .hello{
+    position: absolute;
+    top:30px;
+    left: 29%;
+    font-size: 5rem;
+    padding: 2rem;
+}
+.waitingText{
+    position: absolute;
+    padding: 30px;
+    top:25%;
+    right:35%
+}
+.msg{
+
+    color: black;
+}
+.timer{
+
+    padding: 70px;
+    position: absolute;
+    top: 47%;
+    left: 35.5%;
+    font-size: 60px ;
+} 
+.msg{
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.cover{
+}
+.timerspn{
+    border: solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border-color: #475edf;
+    position: absolute;
+    top: 44%;
+    left: 39%;
+    
+}
+.scroll{
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 0px;
+    padding: 0;
+    backdrop-filter: blur(40px);
+}
+
