@@ -15,6 +15,13 @@ function Home() {
           </div>
         </div>
       </header>
+
+        <div className="title">
+          <div>
+          <input className="PIN" placeholder="Enter your PIN" ></input>
+          </div>
+          <button className="Enter">Enter</button>
+        </div>
     </div>
   );
 }
