@@ -13,7 +13,6 @@
 >>>>>>> b4f065f077a96b8e63e6dd3d7542a52e1c8ec619
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    /* background-image: ; */
+}
+
+.division{
+    margin-top: 20px;
+}
+
+.ranks{
+    margin-top: 80px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.position{
+    display: flex;
+    align-self: flex-end;
+}
+
+.position1{
+    background-color: yellow;
+    width: 200px;
+    height: 400px;
+}
+.position1:hover{
+    background-color: rgb(202, 202, 0);
+    border: 1px black solid;
+}
+.position2{
+    background-color: orange;
+    width: 200px;
+    height: 300px;
+}
+.position2:hover{
+    background-color: rgb(199, 129, 0);
+    border: 1px black solid;
+}
+.position3{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+.position3:hover{
+    background-color: rgb(0, 82, 0);
+    border: 1px black solid;
+}
+
+.congo{
+    margin-top: 60px;
+}
