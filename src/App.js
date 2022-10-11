@@ -7,7 +7,7 @@ import Result from "./pages/Result/Result";
 import QuizClient from "./pages/QuizOngoing/QuizClient";
 
 function App() {
-    return (<QuizClient />);
+    return <Home/>;
 }
 
 export default App;
