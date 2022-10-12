@@ -3,12 +3,11 @@
     margin: 0%;
 }
 
-body {
-    /* background-image: ; */
-}
-
 .division{
     margin-top: 20px;
+    position: relative;
+    margin-bottom: 200px;
+    text-align: center;
 }
 
 .ranks{
@@ -50,6 +49,3 @@ body {
     border: 1px black solid;
 }
 
-.congo{
-    margin-top: 60px;
-}
