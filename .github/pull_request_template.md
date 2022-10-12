@@ -1,6 +1,12 @@
 ## Describe your changes
 
-<!--- Describe your changes in detail -->
+<!--- Describe your changes in detail BELOW -->
+<!--- SHOW COMPLETED TASK WITH 
+    - [x] taskdone1 
+    - [x] taskdone2
+    - [x] taskdone3
+ -->
+
 
 ## Issue ticket number and link
 
