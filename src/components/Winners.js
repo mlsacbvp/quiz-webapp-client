@@ -15,7 +15,7 @@ function Winners() {
                     <div className="position2"><h1 className="division">2</h1></div>
                 </div>
             </div>
-            <h2 className="congo">Congratulations !!! to all the Winners.</h2>
+            
         </div>
     );
 }
