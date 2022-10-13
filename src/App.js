@@ -5,9 +5,10 @@ import SignUp from "./pages/SignUp/SignUp";
 import Waiting from "./pages/Waiting/Waiting";
 import Result from "./pages/Result/Result";
 import QuizClient from "./pages/QuizOngoing/quizpage";
+import Lounge from "./components/Lounge";
 
 function App() {
-    return <Home/>;
+    return <Lounge/>;
 }
 
 export default App;

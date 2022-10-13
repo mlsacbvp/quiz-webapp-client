@@ -3,9 +3,9 @@ import "./Quiztitle.css";
 
 function Quiztitle() {
     return (<>
-        <h1>QUIZ </h1>
-        <h2>Title</h2>
-        <h3>LEADERBOARD</h3>
+        <h1 className="quiz">QUIZ </h1>
+        <h2 className="title">Title</h2>
+        <h3 className="leaderboard">LEADERBOARD</h3>
         </>
     );
 }
