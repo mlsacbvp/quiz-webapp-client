@@ -1,12 +1,8 @@
 :root {
     --Text-light: black;
     --Text-dark: white;
-    --Text-special: #475edf;
+    --Text-normal: #475edf;
     --Text-quiz: #b18170;
-
-    --background-light: white;
-    --background-dark: #222;
-    --background-special: #7642b8;
 
     --font-size-base: 1rem;
     --font-size-biggish: 1.75rem;

@@ -5,11 +5,11 @@ import SignUp from "./pages/SignUp/SignUp";
 import Waiting from "./pages/Waiting/Waiting";
 import Result from "./pages/Result/Result";
 import Landingpage from "./pages/Landingpage/Landingpage";
-import QuizClient from "./pages/QuizOngoing/quizpage";
+import Quizpage from "./pages/QuizOngoing/Quizpage";
 import Lounge from "./components/Lounge";
 
 function App() {
-    return <Landingpage/>;
+    return <Quizpage />;
 }
 
 export default App;
