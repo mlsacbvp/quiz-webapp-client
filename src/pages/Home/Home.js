@@ -9,9 +9,9 @@ function Home() {
             <input className="logo" src=".." placeholder="logo"></input>
           </div>
           <div className="icons">
-            <a href="#" className="el1">Play</a>
-            <a href="#" className="el2">Login</a>
-            <a href="#" className="el3">SignUp</a>
+            <a href="/#" className="el1">Play</a>
+            <a href="/login" className="el2">Login</a>
+            <a href="/signup" className="el3">SignUp</a>
           </div>
         </div>
       </header>
