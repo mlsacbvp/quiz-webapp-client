@@ -1,0 +1,26 @@
+
+.outer{
+    padding: 20px;
+    margin: 20px 0px;
+    display: flex;
+  
+
+    /* flex-direction: column; */
+    background : linear-gradient(to right, #8e2de2, #4a00e0);
+    justify-content: space-between;
+    
+    
+
+}
+
+.inline-rank, .inline-name, .inline-score{
+    /* background : linear-gradient(to right, #8e2de2, #4a00e0); */
+    color: white;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 5px 0 5px;
+    display: flex;
+    justify-content: center;
+   /* width: 35ch; */
+}
