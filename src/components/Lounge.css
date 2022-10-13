@@ -38,7 +38,7 @@
   }
     
 .msgTitle{
-    padding:20px 10px 10px 10px;
+    /* padding:20px 10px 10px 10px; */
 }
 
 .timer{
@@ -74,4 +74,18 @@
     padding: 0;
     backdrop-filter: blur(40px);
 }
+.textbox{
+    position: absolute;
+    text-align: left;
+    bottom: 0%;
+    right: 10px;
+    width: 20%;
+    border: solid;
+    border-color: #475edf;
+    background-color: transparent;
+    backdrop-filter: blur(30px);
+    border-radius: 30%;
+
+}
+
 
