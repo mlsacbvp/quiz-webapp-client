@@ -4,10 +4,11 @@ import Home from "./pages/Home/Home"
 import SignUp from "./pages/SignUp/SignUp";
 import Waiting from "./pages/Waiting/Waiting";
 import Result from "./pages/Result/Result";
+import Landingpage from "./pages/Landingpage/Landingpage";
 import QuizClient from "./pages/QuizOngoing/quizpage";
 
 function App() {
-    return <Home/>;
+    return <Landingpage/>;
 }
 
 export default App;
