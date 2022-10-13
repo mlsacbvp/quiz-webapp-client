@@ -1,18 +1,20 @@
-
 # Quiz-Webapp-client
 
 Quiz Webapp client
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?color=blue&style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/mlsacbvp/quiz-webapp-client?style=for-the-badge)
+
 ![GitHub issues](https://img.shields.io/github/issues/mlsacbvp/quiz-webapp-client?color=blue&style=for-the-badge)
 
 ### links
 
-<a href='#contributing'>Contributing</a>
+<a href='#contributing'>👨🏻‍💻Contributing</a>
 
-<a href='#guide'>Important Guidelines</a>
+<a href='#guide'>📚Important Guidelines</a>
 
-<a href='#deploy'>Deployment</a>
+<a href='#deploy'>⚙🖥Deployment</a>
 
 ## Contributing
 
@@ -27,7 +29,7 @@ Please adhere to this project's `code of conduct`.
 Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
 ![alt](https://camo.githubusercontent.com/fcf9a4ed664cc63de2fcb14d1135072ba6d4c74a8e9bdb224ad6ab1e72600c3b/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f666f726b2e706e67)
 
-### **step 2:** Clone Repo
+### **Step 2:** Clone Repo
 
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
 
@@ -49,14 +51,15 @@ If the issue is assigned to you, you can work on it and send a PR within 2-3 day
 ## Important guidelines
 
 <p id= "guide">
-1. Without any assigned issue, don’t send a PR, and if you don’t find issues at a particular time, then visit the repo after 2-3 days.
+
+1. **Without any assigned issue, don’t send a PR**, and if you don’t find issues at a particular time, then visit the repo after 2-3 days.
 2. If you send a PR without being assigned an issue, your PR will be marked “spam” or “invalid”.
 3. After getting assigned an issue, you must send a PR within 2-3 days otherwise we will re-assigning that issue to someone else.
 
 #### **Read the official hacktoberfest guidelines:**👇🏻👇🏻👇🏻
 
-[https://hacktoberfest.com/participation/#pr-mr-details](https://hacktoberfest.com/participation/#pr-mr-details)
-[https://hacktoberfest.com/participation/#spam](https://hacktoberfest.com/participation/#spam)
+- [https://hacktoberfest.com/participation/#pr-mr-details](https://hacktoberfest.com/participation/#pr-mr-details)
+- [https://hacktoberfest.com/participation/#spam](https://hacktoberfest.com/participation/#spam)
 
 ### More Resources 📚
 
