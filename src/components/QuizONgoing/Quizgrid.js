@@ -12,12 +12,21 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: "center",
 }));
 
-const Quizgrid = () => {
-  const endTime = new Date().getTime() + 15000; // 2 minutes
+const Quizgrid = ({ image, quesText, optionArray, counter }) => {
+  const endTime = new Date().getTime() + 60000; // 2 minutes
   const [timeLeft, setEndTime] = useCountdown(endTime);
 
   const minutes = Math.floor(timeLeft / 60000) % 60;
   const seconds = Math.floor(timeLeft / 1000) % 60;
+
+
+  const listItems = optionArray.map((options) =>
+
+    <Grid item xs={6} marginTop={5}>
+      <Item elevation={10}>{options}</Item>
+    </Grid>
+  );
+
   if (minutes == 0 && seconds == 0) {
     return (
       <div className="center">
@@ -26,7 +35,7 @@ const Quizgrid = () => {
     );
   } else {
     return (
-      <div className="center">
+      <div className="">
         <div className="infobar">
           <div>
             <p>
@@ -41,16 +50,19 @@ const Quizgrid = () => {
                   m: 1,
                   width: 1024,
                   height: 128,
+                  marginInline: 10,
                 },
               }}
             >
-              <Item elevation={10}>TExt</Item>
+              <Item elevation={10} >{quesText ? `${quesText}` : `This is some Sample Text For No Question`}</Item>
             </Box>
           </div>
-          <div>counter</div>
+          <div>{counter}</div>
         </div>
         <div className="grid">
-          <div className="image">{`image`}</div>
+          <div className="image">{image ? <img src='' alt="this is a image" /> : ` Sample Loading image`}
+
+          </div>
           <Grid
             container
             rowSpacing={1}
@@ -59,18 +71,7 @@ const Quizgrid = () => {
             justifyContent="space-evenly"
             alignItems="center"
           >
-            <Grid item xs={6} marginTop={5}>
-              <Item elevation={10}>1</Item>
-            </Grid>
-            <Grid item xs={6} marginTop={5}>
-              <Item elevation={10}>2</Item>
-            </Grid>
-            <Grid item xs={6} marginTop={5}>
-              <Item elevation={10}>3</Item>
-            </Grid>
-            <Grid item xs={6} marginTop={5}>
-              <Item elevation={10}>4</Item>
-            </Grid>
+            {listItems}
           </Grid>
         </div>
       </div>
