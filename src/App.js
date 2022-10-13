@@ -8,7 +8,7 @@ import Landingpage from "./pages/Landingpage/Landingpage";
 import QuizClient from "./pages/QuizOngoing/quizpage";
 
 function App() {
-    return <Landingpage/>;
+    return <Result/>;
 }
 
 export default App;

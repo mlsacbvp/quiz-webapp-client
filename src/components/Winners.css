@@ -3,6 +3,10 @@
     margin: 0%;
 }
 
+.teamname{
+    position: relative;
+}
+
 .division{
     margin-top: 20px;
     position: relative;
@@ -11,6 +15,7 @@
 }
 
 .ranks{
+    height: 463px;
     margin-top: 80px;
     display: flex;
     align-self: flex-end;
@@ -24,28 +29,66 @@
 .position1{
     background-color: yellow;
     width: 200px;
-    height: 400px;
+    height: 0px;
+    animation: first 2s 2s forwards ease;
 }
 .position1:hover{
     background-color: rgb(202, 202, 0);
-    border: 1px black solid;
 }
 .position2{
     background-color: orange;
     width: 200px;
-    height: 300px;
+    height: 0px;
+    animation: second 2s 1s forwards ease;
 }
 .position2:hover{
     background-color: rgb(199, 129, 0);
-    border: 1px black solid;
 }
 .position3{
     background-color: green;
     width: 200px;
-    height: 200px;
+    height: 0px;
+    animation: third 2s forwards ease;
 }
 .position3:hover{
     background-color: rgb(0, 82, 0);
-    border: 1px black solid;
 }
 
+@keyframes first {
+    to{
+        height: 400px;
+    }
+}
+@keyframes second {
+    to{
+        height: 300px;
+    }
+}
+@keyframes third {
+    to{
+        height: 200px;
+    }
+}
+/* @keyframes wiggle {
+    from{
+        height: 350px;
+    }
+    to{
+        height: 400px;
+    }
+} */
+
+/* @keyframes up {
+    0% {
+      transform: scale(1, 0);
+    }
+    50% {
+      transform: scale(1, .5);
+    }
+    80%, 100% {
+      transform: scale(1, 1);
+    }
+    90% {
+      transform: scale(1, .9);
+    }
+  } */
