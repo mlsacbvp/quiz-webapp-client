@@ -3,17 +3,17 @@
     margin: 0%;
 }
 
-h1 {
+.quiz{
     margin-top: 1100px;
     text-align: center;
     padding-bottom: 30px;
 }
-h3{
+.leaderboard{
     text-align: center;
     padding: 10px;
     margin-top: 100px;
 }
-h2{
+.title{
     text-align: center;
 
 }
