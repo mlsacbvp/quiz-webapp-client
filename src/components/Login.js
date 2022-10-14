@@ -21,7 +21,7 @@ export default class Login extends Component {
       <div id="container" class={`container ${classes}`}>
         <div class="form-container sign-up-container">
           <form action="#">
-            <h1>Create Account</h1>
+            <h1 className="crAcc">Create Account</h1>
             {/* <div class="social-container">
                     <a href="www.facebook.com" class="social">
                       <i class="fab fa-facebook-f"></i>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Lounge from '../../components/Lounge';
+import Lounge from '../../components/Lounge/Lounge';
 
 function Waiting(){
     return(
