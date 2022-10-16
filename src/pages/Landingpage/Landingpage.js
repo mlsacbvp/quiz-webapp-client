@@ -1,10 +1,6 @@
 import React from "react";
 import "./Landingpage.css";
 
-function redirectpage(){
-    window.location="home.html";
-}
-
 function Landingpage() {
     return (
         <div>

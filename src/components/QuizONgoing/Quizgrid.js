@@ -15,6 +15,7 @@ const Item = styled(Paper)(({ theme }) => ({
 const Quizgrid = ({ image, quesText, optionArray, counter }) => {
   const endTime = new Date().getTime() + 60000; // 2 minutes
   const [timeLeft, setEndTime] = useCountdown(endTime);
+  setEndTime(endTime);
 
   const minutes = Math.floor(timeLeft / 60000) % 60;
   const seconds = Math.floor(timeLeft / 1000) % 60;
@@ -27,7 +28,7 @@ const Quizgrid = ({ image, quesText, optionArray, counter }) => {
     </Grid>
   );
 
-  if (minutes == 0 && seconds == 0) {
+  if (minutes === 0 && seconds === 0) {
     return (
       <div className="center">
         <p>TIMES UP</p>
@@ -60,7 +61,7 @@ const Quizgrid = ({ image, quesText, optionArray, counter }) => {
           <div>{counter}</div>
         </div>
         <div className="grid">
-          <div className="image">{image ? <img src='' alt="this is a image" /> : ` Sample Loading image`}
+          <div className="image">{image ? <img src='' alt="" /> : ` Sample Loading image`}
 
           </div>
           <Grid

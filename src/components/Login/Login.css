@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url(quizbggg.png);
+  background: url(../quizbggg.png);
   display: flex;
   justify-content: center;
   align-items: center;
